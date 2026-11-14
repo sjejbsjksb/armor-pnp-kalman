@@ -13,7 +13,7 @@
 | --- | --- | --- |
 | 源码 | `calibrate.cpp` / `main.cpp` | 标定工具 + 识别/PnP/卡尔曼主程序 |
 | 实验记录 | [`docs/experiment-record.docx`](docs/experiment-record.docx) | 标定结果、角点顺序判定、PnP、卡尔曼数据与问题排查 |
-| 演示视频 | [`docs/demo.webm`](docs/demo.webm) | 真实相机实时运行：检测框、坐标轴、X/Y/Z 距离、raw/filt/pred |
+| 演示视频 | [`docs/demo.mp4`](docs/demo.mp4) | 真实相机实时运行（60 s / 1280×722 / 10 fps）：检测框、坐标轴、X/Y/Z 距离、raw/filt/pred、目标丢失后的预测与重置 |
 | 曲线脚本 | `plot_pose.py` | 把 `pose_log.csv` 画成 raw/filt/pred 三联图 |
 
 ## 文件
